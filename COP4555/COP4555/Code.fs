@@ -28,7 +28,7 @@
         | 1 -> 1I
         | n -> fib1(n-1) + fib1(n-2)
         
-        printfn "Fib = %A" (fib1) 
+        printfn"%A" (fib1)
         
 
         let rec fib2 n = 
