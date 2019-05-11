@@ -4,7 +4,7 @@
 let main argv = 
     printfn "%A" argv
 
-    printfn "The predecesor of 16 is %d" (Code.Practice1.pred 16)
+    Code.Practice1.test()
 
     printfn "Press ENTER to continue..."
     System.Console.ReadLine() |> ignore
