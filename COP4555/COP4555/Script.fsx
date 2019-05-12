@@ -12,3 +12,8 @@ let rec fact2 x =
     | x -> x * fact1 (x-1)
 
 fact2 4
+
+let rec fact3 = 
+    fun x -> x * fact1 (x-1)
+
+fact3 4
