@@ -8,4 +8,10 @@ let rec fib2 n =
 
     
     
-fib2 6 
+fib2 6
+
+let rec fact1 x =
+    if x < 1 then 1
+    else x * fact1 (x - 1)
+
+fact1 4

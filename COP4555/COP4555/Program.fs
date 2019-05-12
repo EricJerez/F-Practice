@@ -11,8 +11,9 @@ let main argv =
     //Code.ProblemSet1Q1.test3()
     //Code.ProblemSet1Q1.test4()
 
-    let result = Code.Practice_Fib.fib2(5) 
-    printfn "%A" (result)
+    //let result = Code.Practice_Fib.fib2(5) 
+    //printfn "%A" (result)
+   
 
    
     printfn "Press ENTER to continue..."
