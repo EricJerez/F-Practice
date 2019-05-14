@@ -20,3 +20,5 @@ let r1 = list1 |> List.map (fun (x,y) -> swap(x,y))
 
 let list2 = [(8,2) ; (2,3) ; (5,1)]
 let r2 = list2 |> List.sort
+
+let r3 = list1 |> List.append list2
