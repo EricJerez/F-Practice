@@ -11,3 +11,7 @@ swap (2131, "Hello")
 
 fst(swap(2131, "Hello"))
 snd(swap(2131, "Hello"))
+
+let list1 = [(1,2) ; (2,3) ; (5,6)]
+
+list1.Length
