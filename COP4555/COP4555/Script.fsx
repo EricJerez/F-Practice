@@ -1,13 +1,8 @@
 ﻿
-let list1 = [8;2;3;4;5]
-let list2 = [6;7;8;9;10]
+let averageFour (a, b, c, d) =
+   let sum = a + b + c + d
+   sum / 4.0
+
+let avg:float = averageFour (4.0, 10.0, 20.0, 12.0)
 
 
-let rec add a b =
-    match a, b with
-    | _ , [] -> []
-    | [] , _ -> []
-    | a::atail, b::btail when a > b -> (a - b) :: (add atail btail) 
-    | a::atail, b::btail -> (a + b) :: (add atail btail) 
-
-add list1 list2
