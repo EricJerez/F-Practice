@@ -1,7 +1,12 @@
 ﻿
-let rec power (m,n) =
-    if n = 0
-        then 1.0
-        else m * power (m, n-1)
+  type Student =
+    {First_Name: string;
+     Last_name: string;
+     Student_id: int;
+     Age: int;}
 
-power (2.0, 10)
+
+   let p = {Age = 15; 
+            First_Name = "David";
+            Last_name = "Perez"; 
+            Student_id = 5851900};;
